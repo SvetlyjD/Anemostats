@@ -1,27 +1,41 @@
-import airgHamamKrugBlack1 from "../img/product/airg-hamam-krug-black-1.jpg";
-import airgHamamKrugBlue1 from "../img/product/airg-hamam-krug-blue-1.jpg";
-import airgHamamKrugFiolet1 from "../img/product/airg-hamam-krug-fiolet-1.jpg";
-import airgHamamKvadratBlack1 from "../img/product/airg-hamam-kvadrat-black-1.jpg";
-import airgHamamKvadratBlue1 from "../img/product/airg-hamam-kvadrat-blue-1.jpg";
-import airgHamamKvadratFiolet1 from "../img/product/airg-hamam-kvadrat-fiolet-1.jpg";
 
 export const podborka = [
     {
         imgUrls: {
-            imgUrl1: airgHamamKrugBlack1,
-            imgUrl2: airgHamamKrugBlue1,
-            imgUrl3: airgHamamKrugFiolet1
+            imgUrl1: "product/airg-hamam-krug-black-1.jpg",
+            imgUrl2: "product/airg-hamam-krug-blue-1.jpg",
+            imgUrl3: "product/airg-hamam-krug-fiolet-1.jpg"
         },
-        name: "Анемостаты 'Hamam' круглые",
+        name: "Дизайнесркие анемостаты 'Hamam' круглые",
         count: "По запросу"
     },
     {
         imgUrls: {
-            imgUrl1: airgHamamKvadratBlack1,
-            imgUrl2: airgHamamKvadratBlue1,
-            imgUrl3: airgHamamKvadratFiolet1
+            imgUrl1: "product/airg-hamam-kvadrat-fiolet-1.jpg",
+            imgUrl2: "product/airg-hamam-kvadrat-blue-1.jpg",
+            imgUrl3: "product/airg-hamam-kvadrat-black-1.jpg"
         },
-        name: "Анемостаты 'Hamam' квадратные",
+        name: "Дизайнерские анемостаты 'Hamam' квадратные",
         count: "По запросу"
+    },
+    {
+        imgUrls: {
+            imgUrl1: "product/airg-kvadrat-fiolet-2.jpg",
+            imgUrl2: "product/airg-kvadrat-blue-1.jpg",
+            imgUrl3: "product/airg-kvadrat-black.jpg"
+        },
+        name: "Дизайнерские анемостаты AIRGLASS квадратные",
+        count: "По запросу"
+
+    },
+    {
+        imgUrls: {
+            imgUrl1: "product/airg-krug-fiolet-2.jpg",
+            imgUrl2: "product/airg-krug-blue-1.jpg",
+            imgUrl3: "product/airg-krug-black.jpg"
+        },
+        name: "Дизайнерские анемостаты AIRGLASS круглые",
+        count: "По запросу"
+
     }
 ]

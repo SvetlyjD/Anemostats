@@ -4,8 +4,8 @@
 
 .bgNavbar {
   background-color: #37bff5;
-margin-top: 10px;
-padding: 0px;
+  margin-top: 10px;
+  padding: 0px;
 }
 
 
@@ -15,7 +15,7 @@ padding: 0px;
   height: auto;
   margin: 0px;
   padding-top: 6px ;
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 .mainRoute:hover {
@@ -29,8 +29,8 @@ background-color:#03033b;
 
 .brandClass {
   margin-left: 15px;
-padding: 0px;
-}
+  padding: 0px;
+} 
 
 table tbody {
   margin: -10px;
@@ -40,7 +40,7 @@ table tbody {
 
 .caruselContainer {
 position: relative;
-margin-left: 600px;
+margin-left: 45%;
 margin-top: 50px;
 width: 95px;
 height: 125px;
@@ -69,18 +69,70 @@ overflow: hidden;
 }
 
 .podborkaTov {
-  position: relative;
+  text-align: center;
   display: flex;
-  margin-left: 100px;
-  max-width: 550px;
-  max-height: 200px;
-  margin-top: 50px;
-  border: 2px solid blue;
-}
+  align-items: center;
+  margin-left: 22%;
+  max-width: 850px;
+  max-height: 350px;
+  margin-top: 20px;
+ }
 
 .podborkaItem {
-  margin-left: 5px;
-  max-width: 150px;
+  text-align: center;
+  position: relative;
+  margin-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 210px;
   height: auto;
   border: 1px solid lightgreen;
+border-radius: 15px;
+}
+
+.podborkaItem:hover {
+  box-shadow: 0 0 10px;
+}
+
+.podborkaItem  img{
+  margin-left: 38px;
+  margin-top: 60px;
+  width: 120px;
+  height: auto;
+
+}
+
+.oneItem {
+  width: 300px;
+  height: 300px;
+}
+
+.podborkaItemSlide {
+  position: absolute;
+}
+
+.sliderActiv {
+  opacity: 1;
+  transition: all ease 1s;
+}
+
+.sliderNone {
+  opacity: 0;
+}
+
+.btnBack {
+  margin-top: 190px;
+}
+
+.btnNext {
+  margin-top: 190px;
+}
+
+.podborkaHeader {
+width: 50%;
+height: auto;
+margin-left: 25%;
+  text-align: center;
+  font-size: 25px;
+  color: #37bff5;
 }

@@ -1,11 +1,16 @@
-function Podborka(props) {
-    const { name, count, imgUrls } = props
-    return (
-        <div className="podborkaItem">
-            <button>back</button>
-            {console.log(imgUrls)}
+import { podborka } from "../Utils/constGoods";
+import PodborkaItem from "./PodborkaItem";
 
-            <button>next</button>
+function Podborka() {
+
+    return (
+        <div style={{ textAlign: "center", marginTop: "20px" }}>
+            <div className="podborkaHeader" > ДИЗАЙНЕРСКИЕ СТЕКЛЯННЫЕ АНЕМОСТАТЫ AIRGLASS ДЛЯ ПРИТОЧНЫХ И ВЫТЯЖНЫХ СИСТЕМ ВЕНТИЛЯЦИИ </div>
+            <div className="podborkaTov">
+                {podborka.map(item =>
+                    <PodborkaItem key={item.name} imgUrl={item.imgUrls} name={item.name} count={item.count}></PodborkaItem>
+                )}
+            </div>
         </div>
     );
 }

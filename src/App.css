@@ -40,10 +40,10 @@ table tbody {
 
 .caruselContainer {
 position: relative;
-margin-left: 45%;
+margin-left: 38%;
 margin-top: 50px;
-width: 95px;
-height: 125px;
+width: 25%;
+height: auto;
 border: 2px solid lightskyblue;
 border-radius: 10px;
 box-shadow: 0 0 10px;
@@ -57,14 +57,14 @@ overflow: hidden;
 
 .caruselItem {
   flex-wrap: wrap;
-  margin: 5px;
-  width: 180px;
-  height: 110px;
+  margin: 2px;
+  width: 360px;
+  height: auto;
   border: 1px solid lightgreen;
 }
 
 .caruselImg {
-  width: 78px;
+  width: 360px;
   height: auto;
 }
 
@@ -87,7 +87,7 @@ overflow: hidden;
   width: 210px;
   height: auto;
   border: 1px solid lightgreen;
-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .podborkaItem:hover {
@@ -95,9 +95,9 @@ border-radius: 15px;
 }
 
 .podborkaItem  img{
-  margin-left: 38px;
+  margin-left: 2%;
   margin-top: 60px;
-  width: 120px;
+  width: 70%;
   height: auto;
 
 }
@@ -129,9 +129,9 @@ border-radius: 15px;
 }
 
 .podborkaHeader {
-width: 50%;
-height: auto;
-margin-left: 25%;
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
   text-align: center;
   font-size: 25px;
   color: #37bff5;

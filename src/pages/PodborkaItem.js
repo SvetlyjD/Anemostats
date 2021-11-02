@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useHistory } from "react-router";
 
 function PodborkaItem(props) {
 
-    const { imgUrl, name, count } = props;
+    const history = useHistory()
+    console.log(history);
+    const { imgUrl, name, count, type } = props;
     let l = Object.entries(imgUrl).length;
-    console.log(l);
 
     let [c, setC] = useState(1);
     const nextFunc = () => {
@@ -20,19 +22,20 @@ function PodborkaItem(props) {
     return (
         <>
             <div className="podborkaItem">
-
-                <div>{name}</div>
-                {Object.keys(imgUrl).map((item, index) => {
-                    return (
-                        <div key={item} className="podborkaItemSlide">
-                            <div className={index === c ? "sliderActiv" : "sliderNone"}>
-                                <img src={imgUrl[item]} alt="" />
+                <div className="forHistory" onClick={() => history.push(type)} >
+                    <div>{name}</div>
+                    {Object.keys(imgUrl).map((item, index) => {
+                        return (
+                            <div key={item} className="podborkaItemSlide">
+                                <div className={index === c ? "sliderActiv" : "sliderNone"}>
+                                    <img src={imgUrl[item]} alt="" />
+                                </div>
                             </div>
-                        </div>
-                    )
-                }
-                )}
-                <div>Цена: {count}</div>
+                        )
+                    }
+                    )}
+                    <div>Цена: {count}</div>
+                </div>
                 <button className="btnBack" onClick={() => backFunc()}>back</button>
                 <button className="btnNext" onClick={() => nextFunc()}>next</button>
             </div>

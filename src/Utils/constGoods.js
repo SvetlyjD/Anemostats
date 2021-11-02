@@ -1,3 +1,4 @@
+import { Anemostat_hamam_route, Anemostat_route } from "./const";
 
 export const podborka = [
     {
@@ -7,7 +8,8 @@ export const podborka = [
             imgUrl3: "product/airg-hamam-krug-fiolet-1.jpg"
         },
         name: "Дизайнесркие анемостаты 'Hamam' круглые",
-        count: "По запросу"
+        count: "По запросу",
+        type: Anemostat_hamam_route
     },
     {
         imgUrls: {
@@ -16,7 +18,8 @@ export const podborka = [
             imgUrl3: "product/airg-hamam-kvadrat-black-1.jpg"
         },
         name: "Дизайнерские анемостаты 'Hamam' квадратные",
-        count: "По запросу"
+        count: "По запросу",
+        type: Anemostat_hamam_route
     },
     {
         imgUrls: {
@@ -25,7 +28,8 @@ export const podborka = [
             imgUrl3: "product/airg-kvadrat-black.jpg"
         },
         name: "Дизайнерские анемостаты AIRGLASS квадратные",
-        count: "По запросу"
+        count: "По запросу",
+        type: Anemostat_route
 
     },
     {
@@ -35,7 +39,8 @@ export const podborka = [
             imgUrl3: "product/airg-krug-black.jpg"
         },
         name: "Дизайнерские анемостаты AIRGLASS круглые",
-        count: "По запросу"
+        count: "По запросу",
+        type: Anemostat_route
 
     }
 ]
